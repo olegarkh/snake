@@ -20,7 +20,3 @@ oleg:24
 oleg:31
 oleg:59
 slava:34
-slava:42
-slava:11
-oleg:55
-oleg:16
