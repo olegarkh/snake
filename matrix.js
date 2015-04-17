@@ -40,6 +40,7 @@ function Matrix(containerId, rows, cols)
 
         return false;
 	}
+
     //Установить значение ячейки
     //функция принимает координаты ячейки
     //если val = true закрашивает сетку красным
@@ -51,7 +52,6 @@ function Matrix(containerId, rows, cols)
         var $matrix = $('#matrix');
         var $cell = $matrix.find('.cell').eq(ind);
         $cell.toggleClass('on',val);
-
 	}
 }
 		
