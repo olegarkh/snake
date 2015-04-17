@@ -1,6 +1,7 @@
 //
 //Сообщение при достижение границ матрицы
 //
+
 function Message()
 {
    var $message = $('#message');
