@@ -1,0 +1,182 @@
+header
+{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 622px;
+    height: 30px;
+    border: 1px solid #999;
+    background-color: yellow;
+}
+b {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#b2
+{
+   color: red;
+}
+
+#logo
+{
+    margin: 2px 20px 2px 2px;
+    /*margin-right: 20px;*/
+    height: 24px;
+    width: 60px;
+    float: left;
+    font-family: "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    font-weight: bold;
+    color: red;
+    font-size:18px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+#form_block
+{
+    margin-left:10px;
+    margin-right: 10px;
+    float: left;
+    /*background-color: red;*/
+    width: 180px;
+    height: 30px;
+}
+#name
+{
+    margin: 2px 0 2px 2px;
+    /*margin-rigth: 0;*/
+    height: 20px;
+    width: 140px;
+    border-radius: 5px 0 0 5px;
+}
+#ok_button
+{
+    margin: 2px;
+    height: 24px;
+    width: 30px;
+    border-radius: 0 5px 5px 0;
+}
+#info
+{
+    display: inline-block;
+    float: left;
+    margin:2px 20px 2px 20px;
+    height: 24px;
+    width: 60px;
+    text-align: center;
+    font-size: 20px;
+    color: navy;
+    border: 1px solid #999;
+    border-radius: 5px;
+    background-color: transparent;
+}
+#search_block
+{
+    margin-left: 40px;
+    display: inline-block;
+    /*background-color: red;*/
+}
+
+.SearchInput{
+    position: relative;
+    display: inline-block;
+    width:180px;/*251px;*/
+    height:26px;/*32px*/
+    margin: 2px;
+    text-transform: capitalize;
+    outline: 0px solid #666;/*рабочий вариант 0 0 0;*/
+    padding: 0px;
+    background-color: white;
+    /*margin: 3px 3px;*/
+    float: left;
+    border-radius: 5px;/*2*/
+    border: 1px solid #999;
+    border-right: 0px solid red;
+    box-shadow: inset 0 1px 2px #eee;
+}
+
+#matrix
+{
+    float: left;
+    margin-left: 20px;
+    width: 400px;
+    height: 400px;
+    background-color: transparent;
+    border-top: 1px solid silver;
+    border-left: 1px solid silver;
+}
+#matrix .cell
+{
+    float: left;
+    width: 19px;
+    height: 19px;
+    background: transparent;/*yellow;*/
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
+
+}
+
+#matrix .fruit
+{
+    width: 19px;
+    height: 19px;
+
+    background-color: green;
+    /*background: url(apple_PNG4946.png);
+    background-repeat: no-repeat;
+    background-size: contain;*/
+}
+
+#matrix .bomb
+{
+    width: 19px;
+    height: 19px;
+    background-color: black;
+    /*background: url(bomb.gif);
+    background-repeat: no-repeat;
+    background-size: contain;*/
+}
+
+#matrix .on
+{
+    background-color: red;
+}
+
+
+#message
+{
+    margin-left: 20px;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: transparent;
+    text-align: center;
+    font-size: 30px;
+    color: maroon;
+}
+
+#reset
+{
+    margin-left: 20px;
+}
+
+#players
+{
+    display: inline-block;
+    /*float: left;*/
+    margin-left: 20px;
+    padding-top: 14px;
+    background-color: transparent;
+    width: 200px;
+    height: 385px;/*399px;*/
+    border: 1px solid silver;
+    overflow: hidden;
+}
+
+#search
+{
+    margin: 10px 10px 10px 10px;
+    background-color: transparent;
+    width: 180px;
+    height: 30px;
+}
+
