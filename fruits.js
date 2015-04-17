@@ -1,7 +1,7 @@
 function Fruits()
 {
   var $cell = $('#matrix').children();
-  this.number = 0;     //число съеденых фруктов
+  this.number = 0;      //число съеденых фруктов
   var  _this = this;
 
   $('#info').html(_this.number);
@@ -10,7 +10,7 @@ function Fruits()
       var col = parseInt(Math.random() * m1.cols);
       var row = parseInt(Math.random() * m1.rows);
 
-      return  row * m1.cols + col;     //возвращает индекс сгенерированной случайной ячейки
+      return  row * m1.cols + col;      //возвращает индекс сгенерированной случайной ячейки
   }
 
   this.create = function(value, name)
