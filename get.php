@@ -1,5 +1,4 @@
 <?php
-//$results = file('results.txt');
 
 $strings = file('results.txt');
 $messages = array();
