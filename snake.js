@@ -1,7 +1,6 @@
 /**
  * Created by oleg on 05.04.2015.
  */
-
 function Snake(length)
 {
     //this.body = [{row: 1, col: 1}, {row: 1, col: 2}];
