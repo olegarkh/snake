@@ -1,7 +1,6 @@
 /**
  * Created by oleg on 07.04.2015.
  */
-
 function Game()
 {
     var timerId;
